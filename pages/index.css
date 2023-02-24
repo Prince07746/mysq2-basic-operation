@@ -16,6 +16,8 @@ body, html{
     position: absolute;
     margin-left: 40%;
     background-color: gray;
+    width: 300px;
+    height: 200px;
 }
 
 #form input{
