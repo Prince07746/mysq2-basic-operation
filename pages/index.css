@@ -9,6 +9,8 @@ body, html{
     background-repeat: no-repeat;
     color: white;
 }
+p, h1{
+    color: white;
 #form{
     display: none;
     text-align: left;
