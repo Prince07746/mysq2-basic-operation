@@ -17,7 +17,6 @@ p, h1{
     text-align: left;
     flex-direction: column;
     position: relative;
-    margin-left: 15%;
     background-color: gray;
     width: 300px;
     height: 200px;
