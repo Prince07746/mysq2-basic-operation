@@ -6,7 +6,7 @@ function start(){
         document.getElementById('demo').innerHTML = "welcome";
         document.getElementById('form').style.display = "flex";
         document.getElementById('pass').style.display = "none";
-
+prompt('are you xv');
     }else{
         document.getElementById('demo').innerHTML = "wrong password";
     }
