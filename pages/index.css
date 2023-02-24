@@ -7,6 +7,7 @@ body, html{
     background-image: url('bk.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    color: white;
 }
 #form{
     display: none;
