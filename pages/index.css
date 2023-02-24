@@ -15,6 +15,7 @@ body, html{
     flex-direction: column;
     position: absolute;
     margin-left: 40%;
+    background-color: gray;
 }
 
 #form input{
