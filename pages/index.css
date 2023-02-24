@@ -3,8 +3,10 @@
     margin: 0;
     padding: 0;
 }
-body{
-    background-color: rgba(240, 238, 238, 0.747);
+body, html{
+    background-image: url('bkg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 #form{
     display: none;
