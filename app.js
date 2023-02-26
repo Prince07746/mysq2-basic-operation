@@ -30,7 +30,7 @@ app.post('/formula',function(req,res){
 
 
 
-app.get('tables',function(req,res){
+app.get('/tables',function(req,res){
 connection.connect(function(err) {
   if (err) throw err;
   console.log('Connected!');
