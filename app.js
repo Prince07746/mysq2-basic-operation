@@ -41,7 +41,7 @@ connection.query('SHOW TABLES', function (err, results, fields) {
   res.send(results);
 });
 
-}    
+})    
     
     
 app.listen(port,function(err){
