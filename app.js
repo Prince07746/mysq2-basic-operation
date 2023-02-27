@@ -8,7 +8,6 @@ var port = process.env.PORT || 3030;
 
 app.use(express.static(__dirname+'/pages'));
 
-
 // DATA BASE CONNECTION
 const connection = mysql.createConnection({
   host: 'us-cdbr-east-06.cleardb.net',
