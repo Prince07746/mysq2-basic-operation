@@ -39,17 +39,17 @@ connection.query('SELECT * FROM user', function (err, results, fields) {
   if (err) throw err;
   res.send(results);
 });
-
-});
-
-
 connection.end((err) => {
   if (err) {
     console.error('Error closing the database connection: ' + err.stack);
     return;
   }
   console.log('Database connection closed.');
+});  
+
 });
+
+
     
     
 app.listen(port,function(err){
