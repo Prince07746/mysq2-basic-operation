@@ -34,7 +34,7 @@ app.post('/formula',function(req,res){
 
 
 app.get('/tables',function(req,res){
-
+const connection = createConnection();
 connection.query('SELECT * FROM user', function (err, results, fields) {
   if (err) throw err;
   res.send(results);
