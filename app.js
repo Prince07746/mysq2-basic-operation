@@ -20,11 +20,6 @@ const connection = mysql.createConnection({
    return connection;
 }
 
-connection.connect(function(err) {
-  const connection = createConnection();
-  if (err) throw err;
-  console.log('Connected!');
-});
 
 
 
