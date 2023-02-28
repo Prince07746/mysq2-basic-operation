@@ -9,14 +9,19 @@ var port = process.env.PORT || 3030;
 app.use(express.static(__dirname+'/pages'));
 
 // DATA BASE CONNECTION
+function createConnection() {
 const connection = mysql.createConnection({
   host: 'us-cdbr-east-06.cleardb.net',
   user: 'b3b86034d97059',
   password: '5157a6c3',
   database: 'heroku_2073bff5db0dcc9'
 });
+  
+   return connection;
+}
 
 connection.connect(function(err) {
+  const connection = createConnection();
   if (err) throw err;
   console.log('Connected!');
 });
