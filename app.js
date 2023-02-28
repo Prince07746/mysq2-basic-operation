@@ -35,7 +35,7 @@ app.post('/formula',function(req,res){
 
 app.get('/tables',function(req,res){
 
-connection.query('SHOW * FROM user', function (err, results, fields) {
+connection.query('SELECT * FROM user', function (err, results, fields) {
   if (err) throw err;
   res.send(results);
 });
